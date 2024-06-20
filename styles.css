@@ -156,6 +156,8 @@ main {
   flex-direction: column;
   align-items: center;
   width: 100%;
+  background-image: url('body-image.png');
+  background-repeat: no-repeat;
 }
 
 footer {
