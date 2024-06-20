@@ -26,6 +26,22 @@ header {
   background-size: cover;
 }
 
+.dropdown-menu {
+  background-color:black !important;
+  background-size: cover;
+}
+
+.dropdown-item {
+  color: #6E2F8A !important; /* Set text color */
+}
+
+.dropdown-Item:focus, .dropdown-Item:hover {
+  color: #6E2F8A;
+  text-decoration: none;
+  background:black;
+  z-index: 1;
+}
+
 h1{ 
   font-family: "Rubik", sans-serif;
   font-size: 40px 
