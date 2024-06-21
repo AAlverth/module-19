@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Bootstrap CSS -->
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 <!-- Custom CSS -->
 <link rel="stylesheet" href="styles.css">
 <!-- Google Fonts -->
@@ -19,24 +17,40 @@
 
  <!--header -->
 
-<header>
+<!--<header>
   <logo> <img src="logo+name.png"> 
   </logo>
 <nav>
-    <a href="#home">Home</a>
-    <!--dropdown -->
+    <a class="nav-item" href="#home">Home</a>
+    
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-        Projects
-      </a>
+        Projects</a>
       <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
         <li><a class="dropdown-item" href="#">Tourist Incognito</a></li>
         <li><a class="dropdown-item" href="#">Chicago Housing Authority</a></li>
         <li><a class="dropdown-item" href="#">Journey's</a></li>
       </ul>
     </li>
-    <a href="#about">About Me</a>
+    <a class="nav-item" href="#about">About Me</a>
 </nav>
+  </header>-->
+  <header>
+    <nav>
+      <logo><img src="logo+name.png"> </logo>
+      <ul class="right-container">
+        <li class="nav-item"><a href="">Home</a></li>
+        <li class="dropdown nav-item">
+          <a href="">Projects</a>
+          <ul class="dropdown-menu">
+            <li><a href="" class="dropdown-item">proj 1</a></li>
+            <li><a href="" class="dropdown-item">proj 2</a></li>
+            <li><a href="" class="dropdown-item">proj 3</a></li>
+          </ul>
+         </li>
+        <li class="nav-item"><a href="">About</a></li>
+      </ul>
+    </nav>
   </header>
   
 <body class="flex-container body">

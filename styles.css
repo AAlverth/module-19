@@ -29,6 +29,8 @@ header {
 .dropdown-menu {
   background-color:black !important;
   background-size: cover;
+  display: none;
+  z-index: 1;
 }
 
 .dropdown-item {
@@ -39,7 +41,16 @@ header {
   color: #6E2F8A;
   text-decoration: none;
   background:black;
-  z-index: 1;
+  z-index: 2;
+}
+
+ul, li {
+  list-style: none;
+}
+
+.right-container {
+  display: flex;
+  float:right
 }
 
 h1{ 
@@ -56,8 +67,8 @@ h3{
 }
 
 nav {
-    display: flex;
-    justify-content: flex-end;
+    width: 100%;
+
 }
 
 nav a {
